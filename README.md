@@ -85,3 +85,4 @@ for id_user in range(nb_users):
     test_loss += np.sqrt(loss.data*mean_corrector)
     s += 1.
 print('test loss: '+str(test_loss/s))
+#colab link - https://colab.research.google.com/drive/1LauNF0LV6syduevjdFcGK9691RX1_UvD#scrollTo=edbe8EAYJ_Sb
